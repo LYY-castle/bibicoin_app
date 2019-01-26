@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.top_bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 15px 20px 15px;
+  background: linear-gradient(to right, #237efa 50%, #0749ea 100%);
+  color: #fff;
+}
+.top_bar .left,
+.top_bar .right {
+  font-size: 12px;
+}
+.top_main {
+  padding: 80px 15px 50px 15px;
+}
+.main {
+  padding-bottom: 50px;
+}
+.product {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+.product .name {
+  color: #10203c;
+  margin-bottom: 20px;
+}
+.product .introduce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.product .introduce .rate {
+  color: #ff4d47;
+  font-size: 30px;
+}
+.product .introduce .rate .year {
+  color: rgba(122, 126, 148, 0.77);
+  font-size: 12px;
+}
+.product .introduce .line {
+  width: 1px;
+  height: 40px;
+  background-color: #eee;
+}
+.product .introduce .day .time {
+  font-weight: 800;
+}
+.product .introduce .day .addPurchase {
+  color: rgba(122, 126, 148, 0.77);
+  font-size: 12px;
+  margin-top: 10px;
+}
+.product .introduce .purchase {
+  height: 100%;
+  padding: 7px 0;
+  width: 100px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: url('../../assets/img/purchase.png') no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.product .introduce .purchase_end {
+  background: url('../../assets/img/purchase_end.png') no-repeat;
+  height: 100%;
+  padding: 7px 0;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background-size: 100% 100%;
+  color: #000;
+}
+.product_end {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  color: #999999;
+}
+.product_end .name {
+  margin-bottom: 20px;
+}
+.product_end .introduce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.product_end .introduce .rate {
+  font-size: 30px;
+}
+.product_end .introduce .rate .year {
+  color: rgba(122, 126, 148, 0.77);
+  font-size: 12px;
+}
+.product_end .introduce .line {
+  width: 1px;
+  height: 40px;
+  background-color: #eee;
+}
+.product_end .introduce .day .time {
+  font-weight: 800;
+}
+.product_end .introduce .day .addPurchase {
+  color: rgba(122, 126, 148, 0.77);
+  font-size: 12px;
+  margin-top: 10px;
+}
+.product_end .introduce .purchase {
+  height: 100%;
+  padding: 7px 0;
+  width: 100px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: url('../../assets/img/purchase.png') no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.product_end .introduce .purchase_end {
+  background: url('../../assets/img/purchase_end.png') no-repeat;
+  height: 100%;
+  padding: 7px 0;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background-size: 100% 100%;
+  color: #000;
+}
